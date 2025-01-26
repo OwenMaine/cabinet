@@ -281,6 +281,8 @@ a:focus {
   position: relative;
   text-align: center;
   padding: 115px 0 75px 0;
+  width: 100%;  /* Add this */
+  overflow: hidden;  /* Add this */
 }
 
 .slider_section #customCarousel1 {
@@ -314,6 +316,8 @@ a:focus {
   position: relative;
   width: 100%;
   z-index: 4;
+  margin: auto;  /* Add this */
+  padding: 0 15px;  /* Add this */
 }
 
 .slider_section .detail-box .inner_detail-box {
@@ -373,18 +377,27 @@ a:focus {
   font-size: 12px;
   background-color: #e45441;
   color: white;
+  position: absolute; 
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
 .slider_section .carousel-control-prev {
-  left: 45px;
+  left: 15px;
   top: 50%;
 }
 
 .slider_section .carousel-control-next {
-  right: 45px;
+  right: 15px;
   top: 50%;
+}
+.slider_section .img_container {
+  width: 100%;  /* Add this */
+  height: 100%;
+}
+.slider_section .img-box {
+  width: 100%;  /* Add this */
+  height: 100%;
 }
 
 .about_section .row {
